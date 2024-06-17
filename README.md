@@ -16,7 +16,7 @@ Clone the repository:
 
 bash
 
-git clone https://github.com/yourusername/chatbot.git
+git clone https://github.com/lakshay405/chatbot.git
 cd chatbot
 Install the required libraries:
 
