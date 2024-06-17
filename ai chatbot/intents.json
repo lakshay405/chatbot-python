@@ -1,0 +1,99 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": ["hello", "hi", "hey"],
+          "responses": ["Hello! Welcome to bouge Lounge. I am bougeAI, How can I help you today?"]
+      },
+      {
+          "tag": "business_name",
+          "patterns": ["what is the name of your business", "name of the business"],
+          "responses": ["Our business name is bouge Lounge."]
+      },
+      {
+          "tag": "business_hours",
+          "patterns": ["what are your business hours", "hours of operation"],
+          "responses": ["We are open from 10:00 AM to 12:00 AM every day."]
+      },
+      {
+          "tag": "menu",
+          "patterns": ["what do you serve", "menu"],
+          "responses": ["We offer a variety of drinks including cocktails, mocktails, coffee, and tea. You can also enjoy delicious snacks and appetizers."]
+      },
+      {
+          "tag": "specials",
+          "patterns": ["do you have any specials", "specials"],
+          "responses": ["Yes, we have happy hour specials from 5:00 PM to 7:00 PM every day. Check our board for today's specials."]
+      },
+      {
+          "tag": "events",
+          "patterns": ["any upcoming events", "events"],
+          "responses": ["We host live music performances every Friday night. Stay tuned for other special events and themed nights!"]
+      },
+      {
+          "tag": "location",
+          "patterns": ["where are you located", "location"],
+          "responses": ["We are conveniently located at 456 Park Avenue, Cityville, State, Zipcode."]
+      },
+      {
+          "tag": "contact",
+          "patterns": ["how can I contact you", "contact"],
+          "responses": ["You can reach us at (555) 123-4567 or via email at info@xyzlounge.com. Feel free to message us on social media too!"]
+      },
+      {
+          "tag": "jokes",
+          "patterns": ["tell me a joke", "joke"],
+          "responses": ["Why did the scarecrow win an award? Because he was outstanding in his field!"]
+      },
+      {
+          "tag": "fun_fact",
+          "patterns": ["tell me a fun fact", "fun fact"],
+          "responses": ["Did you know that the first recorded recipe for a cocktail was in 1806?"]
+      },
+      {
+          "tag": "wifi",
+          "patterns": ["do you offer free wifi", "wifi"],
+          "responses": ["Yes, we provide free Wi-Fi for our customers. Just ask our staff for the password."]
+      },
+      {
+          "tag": "reservations",
+          "patterns": ["can I make a reservation", "reservations"],
+          "responses": ["Certainly! You can make a reservation by calling us at (555) 123-4567 or booking online through our website."]
+      },
+      {
+          "tag": "reviews",
+          "patterns": ["do you have any customer reviews", "reviews"],
+          "responses": ["Yes, we have many satisfied customers! You can check out our reviews on Google, Yelp, and Facebook."]
+      },
+      {
+          "tag": "loyalty_program",
+          "patterns": ["do you have a loyalty program", "loyalty program"],
+          "responses": ["Absolutely! Join our loyalty program to earn points on every purchase and enjoy exclusive rewards and discounts."]
+      },
+      {
+          "tag": "happy_hour",
+          "patterns": ["when is happy hour", "happy hour"],
+          "responses": ["Happy hour is from 5:00 PM to 7:00 PM every day. Don't miss out on our drink specials and discounts!"]
+      },
+      {
+          "tag": "gift_cards",
+          "patterns": ["do you offer gift cards", "gift cards"],
+          "responses": ["Yes, we offer gift cards in various denominations. It's the perfect gift for any occasion!"]
+      },
+      {
+          "tag": "private_events",
+          "patterns": ["do you host private events", "private events"],
+          "responses": ["Yes, we have space available for private events and parties. Contact us for more information on hosting your event at XYZ Lounge."]
+      },
+      {
+          "tag": "thank_you",
+          "patterns": ["thank you", "thanks"],
+          "responses": ["You're welcome! Have a great day and we hope to see you at XYZ Lounge soon."]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["goodbye", "bye", "see you later"],
+          "responses": ["Goodbye! See you next time at bouge Lounge."]
+      }
+  ]
+}
